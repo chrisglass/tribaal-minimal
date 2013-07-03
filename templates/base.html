@@ -62,17 +62,6 @@
             {% endblock %}
             <hr/>
             <footer id="contentinfo" class="footer">
-                <div>
-                    <a href="{{SITEURL}}">{{AUTHOR}}</a> (2013)
-                </div>
-                <div>
-                    powered by <a href="http://getpelican.com/">Pelican</a>
-                    and <a href="http://python.org">Python</a>. 
-                    <a href="https://github.com/chrisglass/pelican-theme-tribaal">Theme</a> based on <a href="http://github.com/slok/iris">Iris</a>
-                </div>
-                <div>
-                    Social icons by <a href="http://fortawesome.github.com/Font-Awesome/"> fort awesome</a>.
-                </div>
                 <div class="social">
                     {% for name, link in SOCIAL %}
                         <a href="{{ link }}"><i class="icon-{{ name }}"></i>  </a>
@@ -80,6 +69,12 @@
                     {% if EMAIL%}
                         <a href="mailto:{{ EMAIL }}"><i class="icon-envelope"></i> </a>
                     {% endif %}
+                </div>
+                <div>
+                    Powered by <a href="http://getpelican.com/">Pelican</a>
+                    and <a href="http://python.org">Python</a> | 
+                    <a href="https://github.com/chrisglass/pelican-theme-tribaal">Theme</a> based on <a href="http://github.com/slok/iris">Iris</a> | 
+                    Social icons by <a href="http://fortawesome.github.com/Font-Awesome/"> fort awesome</a>
                 </div>
             </footer><!-- /#contentinfo -->
         </div>
