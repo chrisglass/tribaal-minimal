@@ -1,15 +1,16 @@
-=============
-Tribaal-theme
-=============
+===============
+tribaal-minimal
+===============
 
-What is tribaal-theme?
--------------
+What is tribaal-minimal?
+------------------------
 
-Tribaal-theme is a `pelican <http://getpelican.com>`_ theme based on the fantastic `Iris <https://github.com/slok/iris>`_, itself based on `Flask webpage <http://flask.pocoo.org/>`_ 
+tribaal-minimal is a `pelican <http://getpelican.com>`_ theme based on the fantastic `Iris <https://github.com/slok/iris>`_, itself based on `Flask webpage <http://flask.pocoo.org/>`_ 
+
 This theme is very simple and easy to read, perfect for a minimalist blog without much things and
-beautiful source code syntax (Thank you `pygments <http://pygments.org/>`_!)
+beautiful source code syntax (thanks to `pygments <http://pygments.org/>`_!)
 
-The main difference with Iris is that it uses the Ubuntu font almost everywhere instead of the original author's choice.
+The main difference with Iris is that it uses the Ubuntu font almost everywhere instead of the original author's choice, as well as a few visal tweaks.
 
 Preview
 -------
@@ -18,7 +19,7 @@ Preview
 Variables
 ---------
 
-Some of the variables that could be used:
+Some of the variables defined in this theme:
 
 - ``DISQUS_SITENAME``: For the disqus comments
 - ``EMAIL``: For the email "mailto:"
@@ -43,15 +44,17 @@ And if you have upper domain level (com, org, co.uk...)
 Installation
 ------------
 
-To install, go to your pelican theme directory and clone the repo. For 
-example::
-    
-    $ cd /home/slok/.virtualenvs/blog/lib/python2.7/site-packages/pelican/themes/
-    $ git clone https://github.com/slok/iris.git
+The easiest way to install a theme for pelican is to create a new themes directory
+in you pelican project root and then checkout this repository into it::
 
-Set the variable ``THEME`` to ``iris`` in your pelican settings, like this::
+    $ cd $my_pelican_project
+    $ mkdir themes
+    $ cd themes
+    $ git clone https://github.com/chrisglass/tribaal-minimal
 
-    THEME = "iris"
+The pelican THEME variable can then be set to the following::
+
+    THEME = "themes/tribaal-minimal"
 
 Notes
 -----
