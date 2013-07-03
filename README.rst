@@ -1,25 +1,19 @@
-====
-Iris
-====
+=============
+Tribaal-theme
+=============
 
-What is iris?
+What is tribaal-theme?
 -------------
 
-Iris is a `pelican <http://getpelican.com>`_ theme based on `Flask webpage <http://flask.pocoo.org/>`_ 
+Tribaal-theme is a `pelican <http://getpelican.com>`_ theme based on the fantastic `Iris <https://github.com/slok/iris>`_, itself based on `Flask webpage <http://flask.pocoo.org/>`_ 
 This theme is very simple and easy to read, perfect for a minimalist blog without much things and
 beautiful source code syntax (Thank you `pygments <http://pygments.org/>`_!)
-Also uses various fonts:
 
-- For social icons: `Font awesome <http://fortawesome.github.com/Font-Awesome/>`_
-- For the title: `The girl next door <http://www.google.com/webfonts/specimen/The+Girl+Next+Door>`_
-- For the headers: `Marcellus <http://www.google.com/webfonts/specimen/Marcellus>`_
-- For the soure code: `Inconsolata <http://www.google.com/webfonts/specimen/Inconsolata>`_
+The main difference with Iris is that it uses the Ubuntu font almost everywhere instead of the original author's choice.
 
 Preview
 -------
 
-.. image:: https://raw.github.com/gist/3885420/bbb0c9598f32a7913b16f4ea4c0308e8c701ef9b/iris_marcellus.png
-    :align: center
 
 Variables
 ---------
