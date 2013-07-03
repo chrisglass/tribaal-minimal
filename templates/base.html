@@ -14,8 +14,8 @@
         <link rel="stylesheet" href="{{ SITEURL }}/theme/css/pygments.css" type="text/css" />
         <link rel="stylesheet" href="{{ SITEURL }}/theme/css/font-awesome.css" type="text/css" />
       
-        {% if FEED_RSS %}
-        <link href="{{ FEED_DOMAIN }}/{{ FEED_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
+        {% if FEED_ALL_ATOM %}
+        <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} ATOM Feed" />
         {% endif %}
 
         <!-- Javascript-->
@@ -51,10 +51,10 @@
     {% block navigation %}
      <div class="navigation">
         <ol class="nav">
-          <li class="current"><a href="{{ SITEURL }}">Blog</a> </li>
+          <li class="current"><a href="{{ SITEURL }}">Blog</a></li>
           <li><a href="{{ SITEURL }}/archives.html">Archive</a></li>
-          <li><a href="{{ SITEURL }}/tags.html">Tags</a> </li>
-          <li><a href="{{ SITEURL }}/{{ FEED_RSS }}">RSS</a> </li>
+          <li><a href="{{ SITEURL }}/tags.html">Tags</a></li>
+          <li><a href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}">Feed</a></li>
         </ol>
       </div>
     {% endblock navigation %}
