@@ -12,7 +12,7 @@
         <!-- CSS -->
         <link rel="stylesheet" href="{{ SITEURL }}/theme/css/{{ CSS_FILE }}" type="text/css" />
         <link rel="stylesheet" href="{{ SITEURL }}/theme/css/pygments.css" type="text/css" />
-        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/font-awesome.css" type="text/css" />
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
       
         {% if FEED_ALL_ATOM %}
         <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} ATOM Feed" />
@@ -84,7 +84,7 @@
                         <a href="{{ link }}"><i class="icon-{{ name }}"></i>  </a>
                     {% endfor %}
                     {% if EMAIL%}
-                        <a href="mailto:{{ EMAIL }}"><i class="icon-envelope"></i> </a>
+                        <a href="mailto:{{ EMAIL }}"><i class="icon-envelope-alt"></i> </a>
                     {% endif %}
                 </div>
                 <div>
