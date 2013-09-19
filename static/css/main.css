@@ -85,9 +85,11 @@ div.navigation {
 .post { font-size: 50px;}
 .post a {text-decoration: none;}
 .post-info abbr {font-size: 15px; color: #555; font-style: italic;}
+footer.post-info {margin-top: 10px;}
+header.post {display: inline-block;}
 article .archive{margin-top: 10px; margin-bottom: 10px;}
 
-.entry-content{margin-top: 50px; margin-bottom: 40px;}
+.entry-content{margin-top: 40px; margin-bottom: 40px;}
 
 h1.archive-entry-title,
 .entry-title,
